@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerDemoaga</string>
+    <string-array name="shaps">
+    <item>Tringle</item>
+    <item>Squer</item>
+    </string-array>
+</resources>

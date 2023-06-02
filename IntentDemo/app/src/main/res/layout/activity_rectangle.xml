@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rectangle"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/hight_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="higth"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/width_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="width"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calc_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Caluclate" />
+</LinearLayout>

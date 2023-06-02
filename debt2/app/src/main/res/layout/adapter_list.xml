@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/linearlayout">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight=".50"
+            android:gravity="fill"
+            android:layoutDirection="rtl"
+            android:paddingRight="10dp"
+            android:text="1"
+            android:textDirection="rtl" />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".30"
+            android:gravity="fill"
+            android:layoutDirection="rtl"
+            android:paddingRight="10dp"
+            android:text="2"
+            android:textDirection="rtl" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight=".50"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/note"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textDirection="rtl"
+                android:layoutDirection="rtl"
+                android:paddingRight="10dp"
+                android:gravity="fill"
+                android:layout_weight="1"
+                android:text="3"/>
+
+            <ImageButton
+
+                android:id="@+id/delete_button"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight=".5"
+                android:background="@drawable/bin"
+                android:hapticFeedbackEnabled="false"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:src="@drawable/bin"
+                android:textSize="22dp"
+                app:backgroundTint="@android:color/transparent"
+                app:backgroundTintMode="multiply" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

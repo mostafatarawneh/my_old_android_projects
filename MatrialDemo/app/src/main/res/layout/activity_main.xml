@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#8BC34A"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:background="@drawable/image_bg"
+         android:padding="30dp"
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/passhint"
+        android:src="@drawable/user"
+        />
+
+    <EditText
+
+        android:id="@+id/username_et"
+        style="@style/Widget.AppCompat.EditText"
+        android:background="@drawable/edittext_bg"
+        android:layout_width="350dp"
+        android:layout_height="59dp"
+        android:layout_margin="18dp"
+        android:autofillHints="@string/hint"
+        android:hint="@string/hint"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/password_et"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="350dp"
+        android:layout_height="59dp"
+        android:layout_margin="18dp"
+        android:autofillHints="@string/passhint"
+        android:hint="@string/passhint"
+        android:background="@drawable/edittext_bg"
+        android:inputType="textPassword" />
+
+    <RelativeLayout
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp">
+
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/button_login_bg"
+            android:text="@string/login"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_goto_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_regst"
+            android:layout_marginStart="250dp"
+            android:text="@string/regsters"
+            android:textAllCaps="false"
+             />
+    </RelativeLayout>
+
+</LinearLayout>

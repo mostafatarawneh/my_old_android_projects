@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Spinner
+        android:id="@+id/main_sp_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/shaps" />
+
+    <EditText
+        android:id="@+id/hight_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="hight"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/width_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="width"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/radius_et"
+        android:hint="raidus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calulate" />
+
+    <TextView
+        android:id="@+id/reuslt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Examlble4Adaptor</string>
+    <string name="date_st">Date</string>
+    <string name="btn_follow">Follow</string>
+    <string name="Followers">Followers</string>
+    <string name="Posts">Posts</string>
+    <string name="Following">Following</string>
+    <string name="todo">TODO</string>
+    <string name="username">Name</string>
+    <string name="bio">Bio</string>
+    <string name="like">Like</string>
+    <string name="share">Share</string>
+    <string name="comment">Comment</string>
+    <string name="add">ADD</string>
+    <string name="name">Name</string>
+</resources>
